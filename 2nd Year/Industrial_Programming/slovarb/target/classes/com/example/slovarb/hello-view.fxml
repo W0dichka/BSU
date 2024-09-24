@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.slovarb.HelloController">
+   <children>
+      <Button fx:id="button" layoutX="268.0" layoutY="174.0" mnemonicParsing="false" onAction="#click" text="Translate" />
+      <TextField fx:id="textfield_1" layoutX="169.0" layoutY="94.0" prefHeight="26.0" prefWidth="262.0" />
+      <TextField fx:id="textfield_2" editable="false" layoutX="169.0" layoutY="255.0" prefHeight="26.0" prefWidth="262.0" />
+   </children>
+</AnchorPane>

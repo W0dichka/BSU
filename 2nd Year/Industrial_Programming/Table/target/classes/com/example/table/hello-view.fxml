@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.table.HelloController">
+   <children>
+      <TableView fx:id="Table_1" layoutX="117.0" layoutY="40.0" prefHeight="319.0" prefWidth="365.0">
+        <columns>
+          <TableColumn fx:id="imya" prefWidth="133.80001831054688" text="Book" />
+          <TableColumn fx:id="avtor" prefWidth="121.39999389648438" text="Author" />
+            <TableColumn fx:id="god" prefWidth="111.199951171875" text="Year" />
+        </columns>
+      </TableView>
+      <Button fx:id="button_1" layoutX="521.0" layoutY="187.0" mnemonicParsing="false" onAction="#click" text="Create" />
+   </children>
+</AnchorPane>
